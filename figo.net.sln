@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "figo.net", "figo.net\figo.net.csproj", "{36ECC312-BB12-459F-A8B3-EFE72095A1ED}"
 EndProject
@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo", "WebDemo\WebDemo.
 		{36ECC312-BB12-459F-A8B3-EFE72095A1ED} = {36ECC312-BB12-459F-A8B3-EFE72095A1ED}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "figo.net.standard", "figo.net.standard\figo.net.standard.csproj", "{5520CE6B-A336-48CF-A3C3-B2F24C3B0836}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,8 +56,15 @@ Global
 		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5520CE6B-A336-48CF-A3C3-B2F24C3B0836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5520CE6B-A336-48CF-A3C3-B2F24C3B0836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5520CE6B-A336-48CF-A3C3-B2F24C3B0836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5520CE6B-A336-48CF-A3C3-B2F24C3B0836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9473C848-1289-4743-BDD9-BBD499D4296D}
 	EndGlobalSection
 EndGlobal
